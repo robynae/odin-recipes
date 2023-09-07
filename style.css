@@ -1,0 +1,68 @@
+body {
+    background-color: mintcream;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    color:darkslategray;
+}
+
+h2 {
+    text-align:center;
+    color:darkslategray;
+}
+
+h3 {
+    text-align: center;
+    color:darkslategray;
+}
+
+p {
+    text-align: center;
+    color: darkslategray;
+}
+
+.directory {
+    text-align: center;
+    list-style-type: none;
+    line-height: 75px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color:darkslategrey;
+}
+
+a:visited {
+    color:steelblue;
+}
+
+a:hover {
+    color:skyblue;
+}
+
+.recipe-image {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients {
+    text-align:center;
+    list-style-type: none;
+}
+
+.instructions {
+    text-align:center;
+    list-style-position: inside;
+}
