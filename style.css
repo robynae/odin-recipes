@@ -1,27 +1,29 @@
 body {
-    background-color: mintcream;
+    background-color:#C6C5B9;
     font-family: sans-serif;
 }
 
 h1 {
     text-align: center;
     font-size: 75px;
-    color:darkslategray;
+    color:#393d3f;
+    margin-bottom:0;
 }
 
 h2 {
     text-align:center;
-    color:darkslategray;
+    color:#393d3f;
 }
 
 h3 {
     text-align: center;
-    color:darkslategray;
+    color:#393d3f;
 }
 
 p {
     text-align: center;
-    color: darkslategray;
+    color: #393d3f;
+    margin-top:5px;
 }
 
 .directory {
@@ -30,6 +32,28 @@ p {
     line-height: 75px;
     font-size: 30px;
     font-weight: bold;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-end;
+    gap:10px;
+}
+
+.recipe{
+    padding: 10px 15px;
+    border-radius:10px;
+    flex:1;
+}
+
+.recipe.mac{
+    background-color: #FB8B24;
+}
+
+.recipe.lasagna{
+    background-color: #9A031E;
+}
+
+.recipe.risotto{
+    background-color: #E36414;
 }
 
 a {
@@ -38,17 +62,12 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
-
-a:link {
-    color:darkslategrey;
-}
-
-a:visited {
-    color:steelblue;
+a{
+    color:#ffffff;
 }
 
 a:hover {
-    color:skyblue;
+    color:#C6C5B9;
 }
 
 .recipe-image {
